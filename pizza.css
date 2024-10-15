@@ -1,0 +1,12 @@
+header {
+    background-image: url(./képek/Pizza_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 580px;
+}
+
+#cim {
+    font-family: "Bebas Neue", sans-serif;;
+    padding: 40px;
+}
