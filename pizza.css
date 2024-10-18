@@ -10,3 +10,9 @@ header {
     font-family: "Bebas Neue", sans-serif;;
     padding: 40px;
 }
+
+.pontok {
+    float: right;
+    padding: 5px;
+    
+}
