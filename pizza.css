@@ -18,6 +18,7 @@ header {
 
 #menu{
     background-color: black;
+    clear: both;
 }
 
 .pontok {
@@ -27,6 +28,33 @@ header {
     font-family: "Bebas Neue", sans-serif;
     text-decoration: none;
     color: white;
+}
+
+#tortenetunk{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 25%;
+}
+
+#bal {
+    width: 35%;
+    float: left;
+}
+
+#jobb{
+    width: 60%;
+    float: right;
+}
+
+#kis_cim{
+    padding-left: 65%;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+}
+
+#szoveg{
+    color: lightgray;
 }
 
 .pontok :hover{
