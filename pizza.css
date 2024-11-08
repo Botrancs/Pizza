@@ -57,9 +57,13 @@ header {
     color: lightgray;
 }
 
-.pontok :hover{
-    background-color: yellow;
+:hover header a{
+    color: white;
+}
 
+img{
+    width: 50%;
+    height: 50%;
 }
 
 header h1{
@@ -74,4 +78,14 @@ hr {
 
 footer {
     text-align: center;
+}
+
+.menu_pontok{
+    text-decoration: none;
+    border: white solid 1px;
+    color: white;
+}
+
+:hover .menu_pontok{
+    color: white;
 }
