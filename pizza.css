@@ -19,6 +19,11 @@ header {
 #menu{
     background-color: black;
     clear: both;
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5%;
 }
 
 .pontok {
@@ -53,12 +58,14 @@ header {
     color: gray;
 }
 
-#szoveg{
-    color: lightgray;
+#kis_cim_2{
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
 }
 
-:hover header a{
-    color: white;
+.szoveg{
+    color: lightgray;
+    padding-bottom: 2%;
 }
 
 img{
@@ -76,16 +83,31 @@ hr {
     margin-right: auto;
 }
 
+p{
+    color: lightgray;
+}
+
 footer {
     text-align: center;
+}
+
+.link{
+    color: white;
+}
+
+.link_grey{
+    color: lightgray;
+}
+
+.feherek{
+    color: white;
 }
 
 .menu_pontok{
     text-decoration: none;
     border: white solid 1px;
     color: white;
-}
-
-:hover .menu_pontok{
-    color: white;
+    padding: 2% 5% 2% 5%;
+    margin-right: 2%;
+    margin-left: 2%;
 }
