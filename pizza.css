@@ -97,8 +97,18 @@ header h1{
     font-family: 'Times New Roman', Times, serif;
 }
 
+footer b{
+    padding-right: 56%;
+}
+
+#szeretettel{
+    float: left;
+    width: 30%;
+    text-align: right;
+}
+
 #also_vonal {
-    width: 80%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -109,6 +119,7 @@ p{
 
 footer {
     text-align: center;
+    background-color: black;
 }
 
 .link_grey{
@@ -126,10 +137,6 @@ footer {
     padding: 2% 5% 2% 5%;
     margin-right: 2%;
     margin-left: 2%;
-}
-
-#lablec{
-    color: lightgray;
 }
 
 #speci_al_cim{
@@ -153,8 +160,9 @@ footer hr{
     color: lightgray;
 }
 
-footer{
-    background-color: black;
+#lablec{
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .kepek{
