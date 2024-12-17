@@ -68,6 +68,11 @@ header {
     padding-bottom: 2%;
 }
 
+#szoveg_2{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
 img{
     width: 50%;
     height: 50%;
@@ -212,21 +217,3 @@ footer hr{
     .div3 { grid-area: 6 / 1 / 10 / 4; }
     .div4 { grid-area: 6 / 4 / 10 / 7; }
     .div5 { grid-area: 7 / 7 / 10 / 10;}
-     
-    
- 
-
-
-/* .parent {
-    display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    grid-template-rows: repeat(9, 1fr);
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
-    }
-    
-    .div1 { grid-area: 1 / 1 / 6 / 7; }
-    .div2 { grid-area: 1 / 7 / 7 / 10; }
-    .div3 { grid-area: 6 / 1 / 10 / 4; }
-    .div4 { grid-area: 6 / 4 / 10 / 7; }
-    .div5 { grid-area: 7 / 7 / 10 / 10; } */
