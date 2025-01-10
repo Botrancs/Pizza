@@ -10,7 +10,6 @@ header {
     color: white;
     height: 450px;
     background-position: 40%;
- 
 }
 
 #cim {
@@ -220,37 +219,6 @@ footer hr{
     .div4 { grid-area: 6 / 4 / 10 / 7; }
     .div5 { grid-area: 7 / 7 / 10 / 10;}
 
-@media only screen and (max-width: 980px) {
-    header{
-        width: 100%;
-        height: 300px;
-    }
-    #cim{
-        padding: 30px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    header{
-        width: 100%;
-        height: 150px;
-    }
-    #cim{
-        padding: 20px;
-    }
-}
-
-@media only screen and (max-width: 576px) {
-    header{
-        width: 100%;
-        height: 150px;
-    }
-    #cim{
-        padding: 10px;
-    }
-}
-
-
 
 @media only screen and (max-width: 980px) {
     #also_vonal{
@@ -267,44 +235,5 @@ footer hr{
 @media only screen and (max-width: 576px) {
     #also_vonal{
         width: 95%;
-    }
-}
-
-@media only screen and (min-width: 1800px) {
-    #kis_cim{
-        padding-left: 25%;
-    }
-}
-
-@media only screen and (max-width: 1250px) {
-    #kis_cim{
-        padding-left: 25%;
-    }
-}
-
-@media only screen and (max-width: 980px) {
-    #tortenetunk{
-        width: 100%;
-        height: 150px;
-        padding-right: 0%;
-    }
-    #kis_cim{
-        padding-left: 25%;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    #tortenetunk{
-        width: 100%;
-        height: 150px;
-        padding-right: 0%;
-    }
-}
-
-@media only screen and (max-width: 576px) {
-    #tortenetunk{
-        width: 100%;
-        height: 150px;
-        padding-right: 0%;
     }
 }
