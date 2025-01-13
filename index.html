@@ -13,11 +13,16 @@
 </head>
 <body>
     <header>
-        <h1 id="cim">Pizzéria</h1>
-        <a href="#" class="pontok">Kapcsolat</a>
-        <a href="#" class="pontok">Rólunk  /</a>
-        <a href="#" class="pontok">Menü  /</a>
-        <a href="#" class="pontok">Kezdőlap  /</a>
+        
+        <div id="header_menu">
+            <h1 id="cim">Pizzéria</h1>        
+            <a href="#" class="pontok">Kapcsolat</a>
+            <a href="#" class="pontok">Rólunk  /</a>
+            <a href="#" class="pontok">Menü  /</a>
+            <a href="#" class="pontok">Kezdőlap  /</a>
+        </div>
+
+        <a href="javascript:void(0);" id="hambi" onclick="hambi_script()">_<br>_<br>_</a>
     </header>
     <div id="tortenetunk">
         <div id="bal">
@@ -85,6 +90,18 @@
             <br> Az oldalt a <a href="#" id="link_gray">Webnode</a> működteti
         </p>
     </footer>
-    
+
+
+
+    <script>
+        function hambi_script() {
+          let  x = document.getElementById("header_menu");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+    </script>
 </body>
 </html>
