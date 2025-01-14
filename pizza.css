@@ -35,7 +35,7 @@ header {
 
 #hambi{
     display: none;
-    line-height: 12px !important;
+    line-height: 10px !important;
     font-size: 50px;
     float: right;
     color: white;
@@ -72,7 +72,7 @@ header {
 }
 
 #kis_cim{
-    padding-left: 60%;
+    padding-left: 68%;
     font-family: 'Times New Roman', Times, serif;
     color: gray;
 }
@@ -251,20 +251,27 @@ footer hr{
     #hambi{
         display: block;
         float: right;
-        margin-top: 3%;
+        margin-top: -15%;
         margin-right: 1%;
         font-family: "Bebas Neue", sans-serif;
-        font-size: 20px;
+        font-size: 70px;
         text-decoration: none;
         color: white;
     }
     .pontok{
-        display: none;
+        display: block;
     }
 }
 
 @media only screen and (max-width: 576px) {
     #also_vonal{
-        width: 95%;
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .szoveg{
+        width: 90%;
+        margin: 0 auto;
     }
 }

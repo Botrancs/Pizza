@@ -96,10 +96,13 @@
     <script>
         function hambi_script() {
           let  x = document.getElementById("header_menu");
+          let  y = document.getElementById("hambi");
           if (x.style.display === "block") {
             x.style.display = "none";
+            y.style.marginTop = "0px";
           } else {
             x.style.display = "block";
+            y.style.marginTop = "-15%";
           }
         }
     </script>
