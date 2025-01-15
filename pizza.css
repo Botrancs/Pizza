@@ -244,6 +244,7 @@ footer hr{
     }
 }
 
+
 @media only screen and (max-width: 768px) {
     #also_vonal{
         width: 90%;
@@ -269,9 +270,39 @@ footer hr{
     }
 }
 
+@media only screen and (max-width: 1020px) {
+    #probald{
+        padding-right: 0%;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    #kis_cim{
+        padding-left: 0%;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    #szoveg_2{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    #szoveg_tort{
+        margin-right: -90px;
+    }
+}
+
 @media only screen and (max-width: 768px) {
-    .szoveg{
-        width: 90%;
-        margin: 0 auto;
+    #szoveg_tort{
+        margin-right: -90px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #szeretettel{
+        margin-right: -90px;
     }
 }
