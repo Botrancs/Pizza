@@ -72,7 +72,7 @@ header {
 }
 
 #kis_cim{
-    padding-left: 68%;
+    padding-left: 62%;
     font-family: 'Times New Roman', Times, serif;
     color: gray;
 }
@@ -301,8 +301,23 @@ footer hr{
     }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 901px) {
     #szeretettel{
-        margin-right: -90px;
+        margin-right: 50px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .parent p{
+        margin-top: -50px;
+    }
+    #pizza_iras{
+        margin-top: -50px;
+    }
+}
+
+@media only screen and (max-width: 905px) {
+    .parent p{
+        margin-top: -80px;
     }
 }
