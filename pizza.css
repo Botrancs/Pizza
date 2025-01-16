@@ -266,7 +266,7 @@ footer hr{
 
 @media only screen and (max-width: 576px) {
     #also_vonal{
-        width: 40%;
+        width: 80%;
     }
 }
 
@@ -319,5 +319,114 @@ footer hr{
 @media only screen and (max-width: 905px) {
     .parent p{
         margin-top: -80px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #bal{
+        float: right;
+        width: 100%;
+        text-align: right;
+        margin-right: -70px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #jobb{
+        float: left;
+        margin-left: -60px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    #bal{
+        float: right;
+        width: 500px;
+        text-align: right;
+        margin-right: -60px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    #jobb{
+        float: left;
+        margin-left: -40px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .menu_pontok{
+        display: block;
+        margin-bottom: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+        
+    }
+    #menu{
+        height: 550px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .parent{
+        display: block;
+        width: 50%;
+        height: 70%;
+        margin-right: 50%;
+    }
+    #speci{
+        height: 1300px;
+        width: 50%;
+    }
+    .div1{
+        width: 200%;
+        margin-bottom: 40px;
+    }
+    .div2{
+        width: 200%;
+        height: 20%;
+        margin-bottom: 20px;
+    }
+    .div3{
+        width: 200%;
+        margin-bottom: 70px;
+    }
+    .div4{
+        width: 200%;
+        margin-bottom: 70px;
+    }
+    .div5{
+        width: 200%;
+        height: 20%;
+    }
+}
+
+@media only screen and (max-width: 512px) {
+    h2{
+        font-size: medium;
+    }
+    #speci_al_cim{
+        font-size: medium;
+    }
+    .parent p{
+        padding-top: 20%;
+    }
+}
+
+@media only screen and (max-width: 665px) {
+    .grid-container{
+        display: block;
+    }
+    #szerettel{
+        float: left;
+    }
+    #probald{
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+    footer b{
+        padding-right: 72%;
     }
 }
